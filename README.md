@@ -1,4 +1,18 @@
 # Overview
-This repository provides R Source codes to reproduce numerical experiments in arXiv preprint "A stochastic optimization approach to minimize robust density power-based divergences for general parametric density models" (A. Okuno) 
+This repository provides R Source codes to reproduce numerical experiments in the following arXiv preprint 
+
+```
+@article{Okuno2023,
+    year      = {2023},
+    publisher = {CoRR},
+    volume    = {},
+    number    = {},
+    pages     = {},
+    author    = {Akifumi Okuno},
+    title     = {A stochastic optimization approach to minimize robust density power-based divergences for general parametric density models},
+    journal   = {arXiv preprint arXiv:2307.05251},
+    note = {submitted.}
+}
+```
 
 Please specify the destination of the output, in "dir" variable in each script (default: "~").
