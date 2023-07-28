@@ -2,7 +2,7 @@
 This repository provides R Source codes to reproduce numerical experiments in the following <a href="https://arxiv.org/abs/2307.05251">arXiv preprint</a>:
 
 ```
-@article{Okuno2023,
+@article{okuno2023,
     year      = {2023},
     publisher = {CoRR},
     volume    = {},
@@ -10,8 +10,7 @@ This repository provides R Source codes to reproduce numerical experiments in th
     pages     = {},
     author    = {Akifumi Okuno},
     title     = {A stochastic optimization approach to minimize robust density power-based divergences for general parametric density models},
-    journal   = {arXiv preprint arXiv:2307.05251},
-    note = {in preparation for submission.}
+    journal   = {arXiv preprint arXiv:2307.05251}
 }
 ```
 
