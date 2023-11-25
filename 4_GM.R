@@ -34,9 +34,11 @@ tt <- function(theta,x){
   alpha = theta[5]
   coef1 = alpha * dnorm(x=x, mean=mu1, sd=sd1)/pt(theta,x)
   coef2 = (1-alpha) * dnorm(x=x, mean=mu2, sd=sd2)/pt(theta,x)
+  coef3 = (dnorm(x=x, mean=mu1, sd=sd1)-dnorm(x=x, mean=mu2, sd=sd2))/pt(theta,x)
   v1 = coef1 * c((x-mu1)/(sd1^2), (x-mu1)^2/(sd1^3)-1/sd1)
   v2 = coef2 * c((x-mu2)/(sd2^2), (x-mu2)^2/(sd2^3)-1/sd2)
-  c(v1,v2)
+  V3 = coef3
+  c(v1,v2, V3)
 }
 gen.y <- function(theta, m=10){
   mu1 = theta[1]; sd1 = theta[2]
